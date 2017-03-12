@@ -1,4 +1,4 @@
-export const numberAbbreviate = (numb, length, truncZero) => {
+exports.numberAbbreviate = function(numb, length, truncZero) {
   if (length < 3) {
     throw new Error('length can not be less then 3');
   }
