@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/Kiwka/fix-number-abbreviate/issues"
   },
-  "homepage": "https://github.com/Kiwka/fix-number-abbreviate#readme"
+  "homepage": "https://github.com/Kiwka/fix-number-abbreviate#readme",
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-jasmine": "2.4.2"
+  }
 }

@@ -1,4 +1,4 @@
-var numberAbbreviate = require('./index.js');
+const numberAbbreviate = require('../index.js').numberAbbreviate;
 
 describe('helpers.js: function numberAbbreviate', function () {
   it('should return error length less then 3', function () {

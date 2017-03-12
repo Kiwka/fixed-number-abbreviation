@@ -7,12 +7,12 @@ exports.numberAbbreviate = function(numb, length, truncZero) {
     return numb.toString();
   }
 
-  const abbr = ['K', 'M', 'G', 'T', 'P', 'E'];
-  const pow = Math.log10(numb);
-  const letter = Math.trunc(pow / 3);
-  const fractionalLength = length - Math.ceil(pow - letter * 3);
-  const getFinalNumber = () => {
-    const finalNumber = (numb / Math.pow(10, letter * 3)).toFixed(fractionalLength && letter ? fractionalLength - 1 : 0);
+  var abbr = ['K', 'M', 'G', 'T', 'P', 'E'];
+  var pow = Math.log10(numb);
+  var letter = Math.trunc(pow / 3);
+  var fractionalLength = length - Math.ceil(pow - letter * 3);
+  var getFinalNumber = function() {
+    var finalNumber = (numb / Math.pow(10, letter * 3)).toFixed(fractionalLength && letter ? fractionalLength - 1 : 0);
 
     return truncZero ? Number(finalNumber) : finalNumber;
   };
