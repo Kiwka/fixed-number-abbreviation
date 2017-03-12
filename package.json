@@ -1,5 +1,5 @@
 {
-  "name": "fix-number-abbreviate",
+  "name": "fixed-number-abbreviate",
   "version": "1.0.0",
   "description": "Abbreviate a number and add unit letters with controlling the general sign quantity",
   "main": "index.js",
