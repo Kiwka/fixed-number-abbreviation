@@ -1,0 +1,24 @@
+{
+  "name": "fix-number-abbreviate",
+  "version": "1.0.0",
+  "description": "Abbreviate a number and add unit letters with controlling the general sign quantity",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiwka/fix-number-abbreviate.git"
+  },
+  "keywords": [
+    "number",
+    "abbreviate",
+    "abbreviation"
+  ],
+  "author": "Olena Sovyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiwka/fix-number-abbreviate/issues"
+  },
+  "homepage": "https://github.com/Kiwka/fix-number-abbreviate#readme"
+}
