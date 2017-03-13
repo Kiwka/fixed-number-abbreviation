@@ -1,6 +1,6 @@
 {
   "name": "fixed-number-abbreviation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abbreviate a number and add unit letters with controlling the general sign quantity",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kiwka/fix-number-abbreviate.git"
+    "url": "git+https://github.com/Kiwka/fixed-number-abbreviation.git"
   },
   "keywords": [
     "number",
